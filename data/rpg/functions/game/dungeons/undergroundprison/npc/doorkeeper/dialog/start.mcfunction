@@ -1,0 +1,2 @@
+execute unless entity @s[nbt={SelectedItem:{id:"minecraft:tripwire_hook",tag:{dungeon:0}}}] run function rpg:game/dungeons/undergroundprison/npc/doorkeeper/dialog/denyentry/nokey/line0
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:tripwire_hook",tag:{dungeon:0}}}] run function rpg:game/dungeons/undergroundprison/npc/doorkeeper/dialog/allowentry

@@ -1,0 +1,1 @@
+execute as @e[type=item, nbt={Item:{tag:{Undropable:1}}}] run function rpg:game/item/droppeditem

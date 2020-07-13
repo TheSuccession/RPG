@@ -1,0 +1,1 @@
+tellraw @s {"text":"You cannot drop this item!","color":"red"}

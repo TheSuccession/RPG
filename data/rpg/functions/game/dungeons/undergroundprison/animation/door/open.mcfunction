@@ -1,0 +1,1 @@
+execute unless block 557 5 74 air run function rpg:game/dungeons/undergroundprison/animation/door/open/stage1
