@@ -1,0 +1,1 @@
+execute if block 131 34 745 minecraft:gilded_blackstone if block 131 34 738 minecraft:gilded_blackstone if block 140 34 738 minecraft:gold_block if block 140 34 745 minecraft:polished_blackstone_bricks run say Block puzzle completed!
