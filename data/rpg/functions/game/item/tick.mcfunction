@@ -1,1 +1,2 @@
 execute as @e[type=item, nbt={Item:{tag:{Undropable:1}}}] run function rpg:game/item/droppeditem
+execute if entity @e[type=item,nbt={Item:{id:"minecraft:nether_star",Count:1b,tag:{display:{Name:'{"text":"Open Menu"}'}}}}] run function rpg:game/item/menuitem
