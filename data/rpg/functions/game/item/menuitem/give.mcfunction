@@ -1,2 +1,1 @@
 execute as @a unless entity @s[nbt={Inventory:[{id:"minecraft:nether_star",tag:{display:{Name:'{"text":"Open Menu"}',Lore:['{"text":"Right click to open the menu."}']}}}]}] run give @s nether_star{display:{Name:'{"text":"Open Menu"}',Lore:['{"text":"Right click to open the menu."}']}} 1
-schedule function rpg:game/item/menuitem/remove 1t
