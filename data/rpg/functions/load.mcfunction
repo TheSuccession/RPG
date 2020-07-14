@@ -1,5 +1,5 @@
 function rpg:general/scoreboards/create
-
+schedule clear
 
 
 

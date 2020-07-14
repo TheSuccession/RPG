@@ -7,5 +7,6 @@ scoreboard objectives remove inDungeon
 scoreboard objectives remove entityHealth
 scoreboard objectives remove maxHealth
 scoreboard objectives remove hasChestplate
+scoreboard objectives remove bankGold
 scoreboard objectives remove damage
 team remove collisionRule

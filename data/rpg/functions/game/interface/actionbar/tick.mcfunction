@@ -1,0 +1,1 @@
+execute as @a run title @s actionbar ["",{"text":"Mana [20/20] ","color":"#64B5F6"},{"text":"| "},{"score":{"name":"@s","objective":"bankGold"},"color":"gold"},{"text":" Gold in Bank","color":"gold"},{"text":" | "},{"selector":"@e[tag=actionbarMessage]","color":"green"}]

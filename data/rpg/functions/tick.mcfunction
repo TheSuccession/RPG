@@ -14,5 +14,8 @@ scoreboard players remove @a[scores={villagerCooldown=1..}] villagerCooldown 1
 scoreboard players add @a[scores={dialogID=1..}] dialogTimer 1
 execute as @a[scores={dialogID=1..,dialogTimer=50..}] if entity @s run function rpg:game/dialogcontroller
 execute as @a[scores={damage=1..}] run function rpg:game/damage
-function rpg:game/item/tick
-function rpg:game/health/tick
+
+
+function rpg:game/item/main
+function rpg:game/health/main
+function rpg:game/interface/main
