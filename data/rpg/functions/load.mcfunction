@@ -1,6 +1,7 @@
 function rpg:general/scoreboards/create
 schedule clear
 function rpg:game/interface/actionbar/messages/start
+execute as @a unless entity @s[scores={bankGold=..0}] run scoreboard players set @s bankGold 0
 
 
 
