@@ -1,0 +1,1 @@
+function rpg:game/interface/actionbar/tick

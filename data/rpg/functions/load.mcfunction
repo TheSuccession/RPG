@@ -1,5 +1,6 @@
 function rpg:general/scoreboards/create
 schedule clear
+function rpg:game/interface/actionbar/messages/start
 
 
 
